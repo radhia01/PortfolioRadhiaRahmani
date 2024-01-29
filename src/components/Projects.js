@@ -4,6 +4,7 @@ import TaskForge from "../assets/images/taskForge.png";
 import debugMaster from "../assets/images/debugMaster.png";
 import LetsTalk from "../assets/images/letstalk.png";
 import Instagram from "../assets/images/instagram.jpg";
+
 import { useState } from "react";
 import Project from "./Project";
 import "./style.css";
@@ -21,6 +22,7 @@ function Projects() {
       description:
         "Task Manager is a powerful task management application designed for efficient team collaboration. Admins can effortlessly manage employees, including adding and removing team members. The app enables project creation, task assignment for each project, and easy allocation of employees to specific projects. With features like project updates and deletions, Task Manager  provide  a more organized and productive work environment ",
       url: "https://github.com/radhia01/TaskForgeAPP",
+      link: "",
       technologies:
         "ReactJs,NodeJs,ExpressJs,HTML5,react-bootstrap,react-toastify,css,axios,reduxjs/toolkit,mui/icons-material",
       other:

@@ -8,6 +8,12 @@ import html5Image from "../assets/images/html5.png";
 import javascriptImage from "../assets/images/javascript.png";
 import nodejsImage from "../assets/images/nodejs.png";
 import phpImage from "../assets/images/php.png";
+import SQLLogo from "../assets/images/sql.jpg";
+import GITLogo from "../assets/images/git.png";
+import NOSql from "../assets/images/nosql.jpg";
+import APIRest from "../assets/images/apirest.jpg";
+import Postman from "../assets/images/postman.png";
+import Swagger from "../assets/images/swagger.png";
 function Skills() {
   const data = [
     { skill: javascriptImage },
@@ -16,7 +22,12 @@ function Skills() {
     { skill: nodejsImage },
     { skill: cssImage },
     { skill: bootstrapImage },
-    { skill: phpImage },
+    { skill: SQLLogo },
+    { skill: NOSql },
+    { skill: GITLogo },
+    { skill: APIRest },
+    { skill: Postman },
+    { skill: Swagger },
   ];
   return (
     <section className="skills" id="skills">
